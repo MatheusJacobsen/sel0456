@@ -1,4 +1,5 @@
 #include "fibonacci.h"
+#include <stdio.h>
 
 // Função Recursiva para Fibonacci com n numeros
 unsigned int fibonacci(unsigned int n)
