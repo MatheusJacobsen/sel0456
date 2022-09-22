@@ -1,7 +1,7 @@
 #include "fibonacci.h"
 
-// n-ésimo termo da sequência fibonacci por recursão
-unsigned int fib(unsigned int n)
+// Função Recursiva para Fibonacci com n numeros
+unsigned int fibonacci(unsigned int n)
 {
     if (n == 0)
     {
@@ -10,5 +10,5 @@ unsigned int fib(unsigned int n)
     else if (n == 1) {
         return 1;
     }
-    return n + fib(n - 1);
+    return n + fibonacci(n - 1);
 }
