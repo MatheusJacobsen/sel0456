@@ -1,4 +1,4 @@
 GCC = gcc
 
-main: fibonacci.c fib.c
+main: main.c fib.c
 	$(GCC) -o $^ $@
