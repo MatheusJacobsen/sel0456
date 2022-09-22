@@ -11,7 +11,7 @@ int n, fib = 0, a = 1, b = 1, i;
 printf("Digite um numero inteiro: \n");
 scanf("%d", &n);
 
-// Função de Fibonacci
+// Função de Fibonacci por Laço
 
 for(i=0;i<=n;i++){
     if(i == 0 || i == 1)
