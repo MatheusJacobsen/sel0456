@@ -1,5 +1,5 @@
-#ifndef FACT_H
-#define FACT_H
+#ifndef FIBONNACI_H
+#define FIBONNACI_H
 
 unsigned int fibonnaci (unsigned int n);
 
