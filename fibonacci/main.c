@@ -27,7 +27,6 @@ for(i=0;i<=n;i++){
 // Resultado Final
 
     printf("\n A sequencia final de Fibonacci por for com %d numeros: %d \n", n, fib);
-    printf("\n A sequencia final de FIbonacci por Recursividade com %d numeros: %d \n", n, fibonacci(n));
 
     return 0;
 }
