@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "fibonacci.h"
+#include "fibonnaci.h"
 
 int main(void){
 
 // Declaração de Variáveis
 
-unsigned int n
+unsigned int n;
 
 // Inserção de numero pelo Usuario
 
@@ -14,7 +14,7 @@ scanf("%d", &n);
 
 // Função de Fibonacci por Recursividade
 
-    printf("\nResultado por recursão: %d\n\n", fibonacci(n));
+    printf("\n Resultado por recursão: %d\n\n", fibonnaci(n));
 
     return 0;
 }
