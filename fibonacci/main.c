@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "fibonacci.h"
 
 int main(void){
 
@@ -12,15 +11,7 @@ int n, fib = 0, a = 1, b = 1, i;
 printf("Digite um numero inteiro: \n");
 scanf("%d", &n);
 
-<<<<<<< HEAD:fibonacci/fibonacci.c
 // Função de Fibonacci por Laço For
-=======
-// Função de FIbonacci por Recursividade
-
-unsigned int n 
-
-// Função de Fibonacci por Laço
->>>>>>> 7334cc3b354e971e4d742e141733dd6ddff2d5d4:fibonacci/main.c
 
 for(i=0;i<=n;i++){
     if(i == 0 || i == 1)
