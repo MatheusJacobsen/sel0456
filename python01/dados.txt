@@ -1,0 +1,1 @@
+"aula", "quinta feira", "desenvolvimento", "software", "computador", "sistema", "embarcado", "calor", "ar condicionado", "23", "452.23"
